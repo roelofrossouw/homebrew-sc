@@ -1,4 +1,4 @@
-class SimplyCPPModels < Formula
+class simply-cpp-models < Formula
   desc "ONNX Models commonly used in Simply CPP"
 
   url "https://apt.roelof.co.za/hb/models/models_2026_09.tar.gz"
