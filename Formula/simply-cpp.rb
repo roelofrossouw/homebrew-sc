@@ -1,4 +1,4 @@
-class simply-cpp < Formula
+class SimplyCpp < Formula
    desc "Simply C++ framework"
    homepage "https://github.com/roelofrossouw/simply-cpp"
 
