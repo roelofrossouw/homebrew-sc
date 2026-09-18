@@ -3,7 +3,7 @@ class SimplyCppDb < Formula
     homepage "https://github.com/roelofrossouw/simply-cpp-db"
     url "https://github.com/roelofrossouw/simply-cpp-db/archive/refs/tags/v1.0.4.tar.gz"
     sha256 "86e7b2fa74c6309b3c9b4bdb3e1829aab93bdc229ad0a6eff451d3140c92a46a"
-    license "MIT"
+    license "Apache-2.0"
 
     depends_on "cmake" => :build
 

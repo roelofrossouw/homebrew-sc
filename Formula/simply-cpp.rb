@@ -1,9 +1,9 @@
 class SimplyCpp < Formula
     desc "Library that wraps common C++ libraries behind one simple, consistent API"
     homepage "https://github.com/roelofrossouw/simply-cpp"
-    url "https://github.com/roelofrossouw/simply-cpp/archive/refs/tags/v1.1.6.tar.gz"
-    sha256 "b9a4332ca5d4401c0d7b2aec3305d3098a792eefc2e01eb2e9e29a94534a2146"
-    license "MIT"
+    url "https://github.com/roelofrossouw/simply-cpp/archive/refs/tags/v1.1.7.tar.gz"
+    sha256 "6066a00bcb58d7baf362fe1e056911a749e18c488686b2dc16e73933aff7ad3f"
+    license "Apache-2.0"
 
     depends_on "cmake" => :build
 
