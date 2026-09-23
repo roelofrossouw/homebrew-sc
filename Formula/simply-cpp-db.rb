@@ -6,6 +6,7 @@ class SimplyCppDb < Formula
     license "Apache-2.0"
 
     depends_on "cmake" => :build
+    depends_on "postgresql"
 
     def install
         system "cmake", "-S", ".", "-B", "build", *std_cmake_args

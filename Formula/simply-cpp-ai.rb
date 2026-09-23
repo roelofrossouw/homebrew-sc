@@ -6,6 +6,11 @@ class SimplyCppAi < Formula
     license "Apache-2.0"
 
     depends_on "cmake" => :build
+    depends_on "simply-cpp"
+    depends_on "simply-cpp-image"
+    depends_on "simply-cpp-models"
+    depends_on "onnxruntime"
+    depends_on "nlohmann-json"
 
     def install
         system "cmake", "-S", ".", "-B", "build", *std_cmake_args

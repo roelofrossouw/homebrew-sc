@@ -6,6 +6,9 @@ class SimplyCppImage < Formula
     license "Apache-2.0"
 
     depends_on "cmake" => :build
+    depends_on "simply-cpp"
+    depends_on "lunasvg"
+    depends_on "opencv"
 
     def install
         system "cmake", "-S", ".", "-B", "build", *std_cmake_args
