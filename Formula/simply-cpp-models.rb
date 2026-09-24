@@ -1,8 +1,13 @@
 class SimplyCppModels < Formula
   desc "ONNX models used with simply-cpp-ai"
+  # Without an explicit version, brew guesses one from the URL - it misreads
+  # "models_2026_09.1.tar.gz" as version "09.1", silently dropping "2026_"
+  # (Homebrew's own guesser looks for a numeric run, and "2026_09.1" hits its
+  # date-like-prefix heuristic). Declaring it here removes the guesswork.
+  version "2026-09.1"
 
   url "https://apt.roelof.co.za/hb/models/models_2026_09.1.tar.gz"
-  sha256 "f4129bf6515dd662f5d0cca1e9163f4ac8ec3b2b030bf2af92136fa20de502fc"
+  sha256 "780dd93599f342b408bc59d66f39080c5c855b94a31bc86ce0fe6740dcf41b55"
 
   def install
     pkgshare.install Dir["*"]
