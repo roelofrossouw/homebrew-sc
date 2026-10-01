@@ -6,7 +6,7 @@ class SimplyCppModels < Formula
   version "2026.10.1"
 
   url "https://apt.roelof.co.za/hb/models/models_2026.10.1.tar.gz"
-  sha256 "4465b4a72b7135d5f839701a2ce6c7d76b0486df3cb2ff34eeb368f7589f2b1d"
+  sha256 "8c2c02e305e9d492ace942cda30311f65f8715514470a8dbab96fd3b755f9470"
 
   def install
     pkgshare.install Dir["*"]
