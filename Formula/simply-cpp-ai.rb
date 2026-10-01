@@ -1,8 +1,8 @@
 class SimplyCppAi < Formula
     desc "Wrappers for common AI tooling: ONNX, YOLO, and more"
     homepage "https://github.com/roelofrossouw/simply-cpp-ai"
-    url "https://github.com/roelofrossouw/simply-cpp-ai/archive/refs/tags/v1.5.1.tar.gz"
-    sha256 "5cbbff7a85cff3f38509a0224d43c4586dbeb66043a37b671fceb987adc439b4"
+    url "https://github.com/roelofrossouw/simply-cpp-ai/archive/refs/tags/v1.5.2.tar.gz"
+    sha256 "36d4bbea5259bdb420776873ff3cd3b3f793bbacb87d66684f0505aadbc636ce"
     license "Apache-2.0"
 
     depends_on "cmake" => :build
