@@ -9,6 +9,7 @@ class SimplyCppAi < Formula
     depends_on "simply-cpp"
     depends_on "simply-cpp-image"
     depends_on "simply-cpp-models"
+    depends_on "simply-cpp-db"
     depends_on "onnxruntime"
     depends_on "nlohmann-json"
 
