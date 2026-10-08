@@ -1,8 +1,8 @@
 class SimplyCppImage < Formula
     desc "C++20 wrapper around OpenCV for loading, saving, and processing images"
     homepage "https://github.com/roelofrossouw/simply-cpp-image"
-    url "https://github.com/roelofrossouw/simply-cpp-image/archive/refs/tags/v1.2.2.tar.gz"
-    sha256 "8ebfffdbd75a79b2182d239027bcbebedde1365e225e8900d9ba02b2f5c8e8f2"
+    url "https://github.com/roelofrossouw/simply-cpp-image/archive/refs/tags/v1.2.3.tar.gz"
+    sha256 "8bf25606595935ab6584d13924e012df00cdeaf6d3e61f0604100f159c8ca1db"
     license "Apache-2.0"
 
     depends_on "cmake" => :build
