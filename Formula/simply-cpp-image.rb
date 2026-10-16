@@ -8,7 +8,6 @@ class SimplyCppImage < Formula
     depends_on "cmake" => :build
     depends_on "simply-cpp"
     depends_on "simply-cpp-graphics"
-    depends_on "lunasvg"
     depends_on "opencv"
 
     def install
