@@ -3,10 +3,10 @@ class SimplyCppModels < Formula
   # Without an explicit version, brew guesses one from the URL - and got it
   # wrong for the old "YYYY-MM" scheme (silently dropped the year). Declaring
   # it here removes the guesswork regardless of what the scheme becomes next.
-  version "2026.10.14"
+  version "2026.10.20"
 
-  url "https://apt.roelof.co.za/hb/models/models_2026.10.14.tar.gz"
-  sha256 "ea19e7d41e4b1b857ba3b4d895ba9fac9922d60e7b44cc8a05e1ccc31dc9ab33"
+  url "https://apt.roelof.co.za/hb/models/models_2026.10.20.tar.gz"
+  sha256 "87b095300c96430c3202f96ce7d0727913701157d829bb5afbe2bd634a818c51"
 
   def install
     pkgshare.install Dir["*"]
