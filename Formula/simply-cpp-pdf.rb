@@ -2,7 +2,7 @@ class SimplyCppPdf < Formula
     desc "C++20 PDF writer: text, shapes, images and SVG, on sc-pdflite"
     homepage "https://github.com/roelofrossouw/simply-cpp-pdf"
     url "https://github.com/roelofrossouw/simply-cpp-pdf/archive/refs/tags/v4.1.1.tar.gz"
-    sha256 "fe2a957c4ea2e76b58979cf0cf3bb13691b0fde34c948cbdd4013954f164e6e5"
+    sha256 "cd184608480fff527dcca314d0865c138dccf7d45cc941313495c23c03bb2275"
     license "Apache-2.0"
 
     depends_on "cmake" => :build
