@@ -1,8 +1,8 @@
 class Html2pdf < Formula
     desc "html2pdf: HTML files as PDFs, with headers, footers, page numbers and a table of contents"
     homepage "https://github.com/roelofrossouw/html2pdf"
-    url "https://github.com/roelofrossouw/html2pdf/archive/refs/tags/v1.1.7.tar.gz"
-    sha256 "c4a50c54e47e329fb96388b40e3ccb135f81ba4c275fd2db455c5dcfc2f45ced"
+    url "https://github.com/roelofrossouw/html2pdf/archive/refs/tags/v1.1.8.tar.gz"
+    sha256 "f7c32f74da044bbccf6b0a358463e505ccddd2a573a8dcf1df5410969b080514"
     license "Apache-2.0"
 
     depends_on "cmake" => :build
