@@ -1,8 +1,8 @@
 class SimplyCppAi < Formula
     desc "Wrappers for common AI tooling: ONNX, YOLO, and more"
     homepage "https://github.com/roelofrossouw/simply-cpp-ai"
-    url "https://github.com/roelofrossouw/simply-cpp-ai/archive/refs/tags/v2.4.2.tar.gz"
-    sha256 "07be2d936322ca47878e31f5b63ee7dde469c81b8aced4c6df6b5bc7920d3a46"
+    url "https://github.com/roelofrossouw/simply-cpp-ai/archive/refs/tags/v2.5.1.tar.gz"
+    sha256 "3b68fd749aea40eee730f4796aeccccc1c3fa23e6a6ae85c47b6b2beb156ecab"
     license "Apache-2.0"
 
     depends_on "cmake" => :build
@@ -14,7 +14,7 @@ class SimplyCppAi < Formula
     depends_on "nlohmann-json"
 
     def install
-        system "cmake", "-S", ".", "-B", "build", *std_cmake_args
+        system "cmake", "-S", ".", "-B", "build", "-DSC_AI_BUILD_TESTS=OFF", *std_cmake_args
         system "cmake", "--build", "build"
         system "cmake", "--install", "build"
     end
