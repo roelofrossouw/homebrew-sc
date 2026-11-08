@@ -1,8 +1,8 @@
 class SimplyCppHtml2pdf < Formula
     desc "HTML to PDF: pages with headers, footers, page numbers, a table of contents, links and bookmarks, through litehtml and sc-pdflite"
     homepage "https://github.com/roelofrossouw/simply-cpp-html2pdf"
-    url "https://github.com/roelofrossouw/simply-cpp-html2pdf/archive/refs/tags/v1.5.1.tar.gz"
-    sha256 "498b5f2332dee7674a1bc0b87e112fb20def020e1c6a3aa35cba5fc0b5ba3b23"
+    url "https://github.com/roelofrossouw/simply-cpp-html2pdf/archive/refs/tags/v1.5.2.tar.gz"
+    sha256 "3c03f6a7bc9920efd9f4c587bf7f516f44b80a9be6b51dc78de8b3761f7cdb8f"
     license "Apache-2.0"
 
     depends_on "cmake" => :build
