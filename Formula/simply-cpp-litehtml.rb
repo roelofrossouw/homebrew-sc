@@ -1,8 +1,8 @@
 class SimplyCppLitehtml < Formula
     desc "HTML and CSS laid out by litehtml and drawn on any sc::canvas: PDF, images, SVG"
     homepage "https://github.com/roelofrossouw/simply-cpp-litehtml"
-    url "https://github.com/roelofrossouw/simply-cpp-litehtml/archive/refs/tags/v1.5.3.tar.gz"
-    sha256 "75ae660b7c9fbce82f7cc3a078721d066e16ee84edcc3b4a4d9593a61408ee8f"
+    url "https://github.com/roelofrossouw/simply-cpp-litehtml/archive/refs/tags/v3.0.2.tar.gz"
+    sha256 "614297fabd43214eb66c05098d5cb1e7ffd7e5896bc762d77aebffba3bd17508"
     license "Apache-2.0"
 
     depends_on "cmake" => :build
