@@ -7,6 +7,7 @@ class SimplyCppWeb < Formula
 
     depends_on "cmake" => :build
     depends_on "simply-cpp"
+    depends_on "md4c"
 
     def install
         system "cmake", "-S", ".", "-B", "build", "-DSC_WEB_BUILD_TESTS=OFF", *std_cmake_args

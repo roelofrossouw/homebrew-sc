@@ -7,6 +7,7 @@ class SimplyCppAi < Formula
 
     depends_on "cmake" => :build
     depends_on "simply-cpp"
+    depends_on "simply-cpp-geometry"
     depends_on "simply-cpp-image"
     depends_on "simply-cpp-models"
     depends_on "onnxruntime"

@@ -7,6 +7,7 @@ class SimplyCppLitehtml < Formula
 
     depends_on "cmake" => :build
     depends_on "simply-cpp"
+    depends_on "simply-cpp-geometry"
     depends_on "simply-cpp-http"
     depends_on "simply-cpp-graphics"
     depends_on "simply-cpp-qrencode"
