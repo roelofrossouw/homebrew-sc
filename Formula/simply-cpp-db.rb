@@ -1,12 +1,13 @@
 class SimplyCppDb < Formula
     desc "C++20 wrapper around libpq for PostgreSQL, other databases to follow"
     homepage "https://github.com/roelofrossouw/simply-cpp-db"
-    url "https://github.com/roelofrossouw/simply-cpp-db/archive/refs/tags/v3.0.0.tar.gz"
-    sha256 "e40be80d6143f7ce4e1a48002551a5f95e145ff03c12349f0ad4abe1ee2397b6"
+    url "https://github.com/roelofrossouw/simply-cpp-db/archive/refs/tags/v4.0.0.tar.gz"
+    sha256 "f4efff992cf0e97446bf248d6e7c757240e18f693cc1b7912eeb577186f35360"
     license "Apache-2.0"
 
     depends_on "cmake" => :build
     depends_on "simply-cpp"
+    depends_on "simply-cpp-net"
     depends_on "libpq"
 
     def install
