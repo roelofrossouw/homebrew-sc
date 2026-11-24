@@ -1,8 +1,8 @@
 class SimplyCppWeb < Formula
     desc "C++20 web document formats: XML now (on libxml2), HTML, SVG and CSS to follow, read through STL-style ranges"
     homepage "https://github.com/roelofrossouw/simply-cpp-web"
-    url "https://github.com/roelofrossouw/simply-cpp-web/archive/refs/tags/v3.0.0.tar.gz"
-    sha256 "fca668b58650f4575e433c8a0f52d6b1d8a231d9a165c2e7b6105c72cdc8406a"
+    url "https://github.com/roelofrossouw/simply-cpp-web/archive/refs/tags/v3.1.1.tar.gz"
+    sha256 "1efeda6a14d8392a33c702f7c4b86c8250ae7640d88841fb85734279a66e1089"
     license "Apache-2.0"
 
     depends_on "cmake" => :build

@@ -1,8 +1,8 @@
 class SimplyCppGraphics < Formula
     desc "C++20 drawing interface: canvas, text and fonts, paths and SVG, for image and PDF engines"
     homepage "https://github.com/roelofrossouw/simply-cpp-graphics"
-    url "https://github.com/roelofrossouw/simply-cpp-graphics/archive/refs/tags/v8.0.0.tar.gz"
-    sha256 "6d41ac305a45163c1ffb6c3f9bb1135506c57e43c6e8586bbde0e45ec84f14e1"
+    url "https://github.com/roelofrossouw/simply-cpp-graphics/archive/refs/tags/v8.1.0.tar.gz"
+    sha256 "6b01fac4b5786917bf4edcbe565b3c8ebf873e54709f934100f0c991b83155f2"
     license "Apache-2.0"
 
     depends_on "cmake" => :build
