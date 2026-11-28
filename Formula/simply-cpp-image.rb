@@ -9,6 +9,7 @@ class SimplyCppImage < Formula
     depends_on "simply-cpp"
     depends_on "simply-cpp-geometry"
     depends_on "simply-cpp-graphics"
+    depends_on "giflib"
     depends_on "opencv"
 
     def install
